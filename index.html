@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenHaven Landscaping</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <h1>GreenHaven</h1>
+          <span>Landscaping</span>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li class="services-dropdown">
+              <a href="#services"
+                >Services <span class="dropdown-arrow">▾</span></a
+              >
+              <ul class="dropdown-menu">
+                <li><a href="#services">Landscape Design</a></li>
+                <li><a href="#services">Garden Maintenance</a></li>
+                <li><a href="#services">Irrigation Systems</a></li>
+                <li><a href="#services">Hardscaping</a></li>
+                <li><a href="#services">Outdoor Lighting</a></li>
+              </ul>
+            </li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Transform Your Outdoor Space</h1>
+        <p>
+          Professional landscaping services to create the garden of your dreams
+        </p>
+        <a href="#contact" class="btn primary-btn">Get a Free Quote</a>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="./assets/img6.jpg"
+              alt="Landscapers working in a garden"
+            />
+          </div>
+          <div class="about-text">
+            <p>
+              Founded in 2010, GreenHaven Landscaping has been transforming
+              ordinary outdoor spaces into extraordinary landscapes for over a
+              decade. Our team of passionate horticulturists, designers, and
+              craftsmen work together to create beautiful, sustainable, and
+              functional outdoor environments.
+            </p>
+            <p>
+              We believe that a well-designed landscape not only enhances the
+              beauty of your property but also improves your quality of life.
+              Our approach combines creative design, quality materials, and
+              meticulous attention to detail to deliver results that stand the
+              test of time.
+            </p>
+            <p>
+              Whether you're looking for a complete garden makeover, regular
+              lawn maintenance, or a custom outdoor living space, we have the
+              expertise and passion to bring your vision to life.
+            </p>
+            <div class="statistics">
+              <div class="stat-item">
+                <span class="stat-number">500+</span>
+                <span class="stat-text">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">12</span>
+                <span class="stat-text">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">98%</span>
+                <span class="stat-text">Client Satisfaction</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🌿</div>
+            <h3>Landscape Design</h3>
+            <p>
+              Custom designs tailored to your space, style, and budget with
+              detailed plans that balance aesthetics with functionality.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🌱</div>
+            <h3>Garden Maintenance</h3>
+            <p>
+              Regular care for your garden including pruning, weeding,
+              fertilizing, and seasonal planting to keep it looking its best.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">💧</div>
+            <h3>Irrigation Systems</h3>
+            <p>
+              Efficient watering solutions that conserve water while keeping
+              your landscape lush and healthy throughout the seasons.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🪨</div>
+            <h3>Hardscaping</h3>
+            <p>
+              Create outdoor living spaces with patios, walkways, retaining
+              walls, and other hardscape elements.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">💡</div>
+            <h3>Outdoor Lighting</h3>
+            <p>
+              Enhance the beauty and security of your landscape with
+              professionally designed lighting systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <h2 class="section-title">Our Work</h2>
+        <div class="gallery-container">
+          <button class="gallery-arrow prev-arrow">❮</button>
+          <div class="gallery-track">
+            <div class="gallery-slide" data-index="0">
+              <div class="gallery-image">
+                <img src="./assets/img1.jpg" alt="Beautiful Garden Design" />
+              </div>
+            </div>
+            <div class="gallery-slide" data-index="1">
+              <div class="gallery-image">
+                <img src="./assets/img2.jpg" alt="Backyard Landscape" />
+              </div>
+            </div>
+            <div class="gallery-slide active" data-index="2">
+              <div class="gallery-image">
+                <img src="./assets/img3.jpg" alt="Flower Garden" />
+              </div>
+            </div>
+            <div class="gallery-slide" data-index="3">
+              <div class="gallery-image">
+                <img src="./assets/img4.jpg" alt="Lush Green Lawn" />
+              </div>
+            </div>
+            <div class="gallery-slide" data-index="4">
+              <div class="gallery-image">
+                <img src="./assets/img5.jpg" alt="Water Feature" />
+              </div>
+            </div>
+          </div>
+          <button class="gallery-arrow next-arrow">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonials-container">
+          <div class="testimonial">
+            <div class="quote">
+              "GreenHaven completely transformed our backyard into a beautiful
+              oasis. Their attention to detail and creativity exceeded our
+              expectations."
+            </div>
+            <div class="client">— Sarah Johnson</div>
+          </div>
+          <div class="testimonial">
+            <div class="quote">
+              "Professional, punctual, and passionate about their work. The team
+              was a pleasure to work with and delivered exactly what we
+              envisioned."
+            </div>
+            <div class="client">— Michael Rodriguez</div>
+          </div>
+          <div class="testimonial">
+            <div class="quote">
+              "We've been using their maintenance services for years, and our
+              garden has never looked better. Highly recommended!"
+            </div>
+            <div class="client">— Emily Chen</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>
+              Ready to transform your outdoor space? Contact us today for a free
+              consultation and quote.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-label">Address:</span>
+                <span>123 Garden Street, Green City, GC 12345</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Phone:</span>
+                <span>(555) 123-4567</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Email:</span>
+                <span>info@greenhaven.com</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Hours:</span>
+                <span
+                  >Monday-Friday: 8am-6pm<br />Saturday: 9am-4pm<br />Sunday:
+                  Closed</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-group">
+                <label for="service">Service Interested In</label>
+                <select id="service" name="service">
+                  <option value="">Select a service</option>
+                  <option value="landscape-design">Landscape Design</option>
+                  <option value="garden-maintenance">Garden Maintenance</option>
+                  <option value="irrigation">Irrigation Systems</option>
+                  <option value="hardscaping">Hardscaping</option>
+                  <option value="outdoor-lighting">Outdoor Lighting</option>
+                </select>
+              </div>
+              <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>GreenHaven</h3>
+            <span>Landscaping</span>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <h4>Stay Updated</h4>
+            <p>Subscribe to our newsletter for seasonal tips and updates</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email address" />
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 GreenHaven Landscaping. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
